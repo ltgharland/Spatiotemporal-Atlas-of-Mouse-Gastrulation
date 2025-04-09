@@ -11,7 +11,7 @@ We applied K-nearest neighbors (K = 5) to classify the seqFISH cells based on ce
 We leveraged the scRNA atlas data, which provides whole transcriptome counts, to impute full gene expression profiles for the seqFISH-resolved cells. For each seqFISH-resolved cell, we identified the K-nearest neighbors (K = 5) and calculated the mean expression vector across all genes from the extended mouse atlas dataset.
 
 
-### Data required can be downloaded from this link: http://shiny.maths.usyd.edu.au/SpatiotemporalMouseAtlas/
+### StabMAP output can be downloaded from this link: http://shiny.maths.usyd.edu.au/SpatiotemporalMouseAtlas/
 
 The output from 1_StabMAP_scRNA_seqFISH.ipynb (StabMAP_allstages_postQC_reweighted_MNNcorrected_original_counts_without_neigh.Rds) which contains the low-dimensional embedding 
 for all seqFISH and scRNA cells in the spatiotemporal atlas can be downloaded from the front page of the interactive exploration Shiny app above.
