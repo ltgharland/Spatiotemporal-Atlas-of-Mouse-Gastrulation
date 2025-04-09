@@ -21,10 +21,10 @@ Please find  links to the PC and logcounts files for seqFISH and scRNA datasets 
 
 Principal Components for seqFISH and scRNA cells:
 
-seqFISH_pca.rds
+seqFISH_pca.rds &
 atlas_pca.rds
 
 Logcounts matrices for seqFISH and scRNA cells:
 
-atlas_logcounts_ss.rds
+atlas_logcounts_ss.rds &
 seqFISH_logcounts_ss.rds
