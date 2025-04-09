@@ -1,5 +1,15 @@
 Bioinformatics pipeline to project in vitro models into a spatiotemporal framework
 
+Data required can be downloaded from this link:
+
+Principal Components for seqFISH and scRNA cells:
+seqFISH_pca.rds
+atlas_pca.rds
+
+Logcounts matrices for seqFISH and scRNA cells:
+atlas_logcounts_ss.rds
+seqFISH_logcounts_ss.rds
+
 To project additional scRNA-seq datasets into the spatiotemporal atlas, we used StabMAP and reducedMNN. Principal components were calculated for the gastruloid cells after performing rPCA integration using Seurat v4 as described above in the ‘Calculating Principal Components’ sections. Briefly, multiple rounds of rPCA integration were performed, first across samples within each gastruloid timepoint and then across timepoints. Next, to align all gastruloid cells with the spatiotemporal atlas cells, we applied StabMAP followed by reducedMNN. For StabMAP, we used the top 30 principal components calculated for the scRNA, seqFISH and query gastruloid datasets, as described above, with projectALL = TRUE. The resulting StabMAP embedding was then reweighted to ensure equal contribution from all three datasets using reWeightEmbedding(). To correct for any remaining technical differences between the seqFISH, scRNA and gastruloid datasets, we applied reducedMNN_batchFactor() with k = 10, setting the batch factor to either seqFISH, scRNA or gastruloid as appropriate. Cell type labels, and imputed AP and DV values for the gastruloid cells were assigned as described in the ‘Label Transfer across scRNA and seqFISH Datasets” and ‘Gene Expression and AP/DV Coordinate Imputation for seqFISH and scRNA Cells’ sections above. 
 
 Statistical Analysis of Cell Type Distribution along the AP Axis
