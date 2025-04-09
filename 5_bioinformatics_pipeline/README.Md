@@ -17,7 +17,7 @@ To construct the spatiotemporal atlas, we integrated seqFISH and scRNA-seq datas
 ### Data required can be downloaded from this link: http://shiny.maths.usyd.edu.au/SpatiotemporalMouseAtlas/
 
 To run StabMAP, you need to provide principal components and logcounts for seqFISH, scRNA and query cells. 
-Please find  links to the PC and logcounts files for seqFISH and scRNA datasets at the link above.
+Please find  links to download the PC and logcounts files for seqFISH and scRNA datasets in the front page of the interactive exploration Shiny app above.
 
 Principal Components for seqFISH and scRNA cells:
 
