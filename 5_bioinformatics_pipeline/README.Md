@@ -1,4 +1,4 @@
-Bioinformatics pipeline to project in vitro models into a spatiotemporal framework
+## Bioinformatics pipeline to project in vitro models into a spatiotemporal framework
 
 Data required can be downloaded from this link: http://shiny.maths.usyd.edu.au/SpatiotemporalMouseAtlas/
 
