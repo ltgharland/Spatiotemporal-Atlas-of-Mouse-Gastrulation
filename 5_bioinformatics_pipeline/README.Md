@@ -16,14 +16,15 @@ To construct the spatiotemporal atlas, we integrated seqFISH and scRNA-seq datas
 
 ### Data required can be downloaded from this link: http://shiny.maths.usyd.edu.au/SpatiotemporalMouseAtlas/
 
+To run StabMAP, you need to provide principal components and logcounts for seqFISH, scRNA and query cells. 
+Please find  links to the PC and logcounts files for seqFISH and scRNA datasets at the link above.
+
 Principal Components for seqFISH and scRNA cells:
 
 seqFISH_pca.rds
-
 atlas_pca.rds
 
 Logcounts matrices for seqFISH and scRNA cells:
 
 atlas_logcounts_ss.rds
-
 seqFISH_logcounts_ss.rds
