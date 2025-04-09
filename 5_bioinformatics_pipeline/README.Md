@@ -1,6 +1,6 @@
 Bioinformatics pipeline to project in vitro models into a spatiotemporal framework
 
-Data required can be downloaded from this link:
+Data required can be downloaded from this link: http://shiny.maths.usyd.edu.au/SpatiotemporalMouseAtlas/
 
 Principal Components for seqFISH and scRNA cells:
 seqFISH_pca.rds
